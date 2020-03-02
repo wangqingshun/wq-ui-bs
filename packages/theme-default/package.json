@@ -1,17 +1,17 @@
 {
-  "name": "vv-ui-theme-default",
+  "name": "wl-ui-theme-default",
   "version": "1.0.0",
-  "description": "vv-ui component default theme.",
+  "description": "wl-ui component default theme.",
   "main": "lib/index.css",
   "scripts": {
     "dev": "gulp build && gulp watch",
     "build": "gulp build"
   },
   "keywords": [
-    "vv-ui",
+    "wl-ui",
     "theme"
   ],
-  "author": "monkeywang",
+  "author": "wangqing",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",

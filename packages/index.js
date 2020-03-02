@@ -1,7 +1,3 @@
-/**
- * @author monkeywang
- * Date: 17/11/9
- */
 import WButton from './button/index.js';
 import WRow from './row/index'
 import WCol from './col/index'

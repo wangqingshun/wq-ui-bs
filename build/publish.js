@@ -1,7 +1,4 @@
-/**
- * @author monkeywang
- * Date: 17/11/22
- */
+
 require('./check-versions')();
 require('shelljs/global');
 
