@@ -1,6 +1,9 @@
 'use strict'
+// 下面的插件是chalk插件，他的作用是在控制台中输出不同的颜色的字，大致这样用chalk.blue('Hello world')，这款插件只能改变命令行中的字体颜色
 const chalk = require('chalk')
+// 下面这个是semver插件，是用来对特定的版本号做判断的，
 const semver = require('semver')
+// 下面是导入package.json文件,要使用里面的engines选项，要注意require是直接可以导入json文件的，并且requrie返回的就是json对象
 const packageConfig = require('../package.json')
 const shell = require('shelljs')
 function exec (cmd) {

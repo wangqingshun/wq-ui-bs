@@ -20,7 +20,7 @@
 > npm i -g vue-cli
 > mkdir my-project && cd my-project
 > vue init webpack
-> npm i && npm i element-ui
+> npm install
 ```
 
 ### 全局组件使用
@@ -28,7 +28,7 @@
 可以在项目的入口文件中引入所有组件或所需组件
 
 ```js
-import WlUI from 'wlui' // 引入组件库
+import WlUI from 'wq-ui-bs' // 引入组件库
 import '../node_modules/WlUI/packages/theme-default/lib/index.css' // 引入样式库
 
 Vue.use(WlUI)
@@ -39,7 +39,7 @@ Vue.use(WlUI)
 可以局部注册所需的组件，适用于与其他框架组合使用的场景
 
 ```js
-import { WButton } from 'wl-ui'
+import { WButton } from 'wq-ui-bs'
 
 export default {
   components: {

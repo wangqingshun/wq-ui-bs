@@ -42,7 +42,7 @@ const vueMarkdown = {
 
         if (tokens[idx].nesting === 1) {
           var desc = tokens[idx + 2].content;
-          const html = utils.convertHtml(striptags(tokens[idx + 1].content, 'script'))
+            const html = utils.convertHtml(striptags(tokens[idx + 1].content, 'script'))
           // 移除描述，防止被添加到代码块
           tokens[idx + 2].children = [];
 
@@ -75,7 +75,7 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('examples'),
+      '@': resolve('examples')
     }
   },
   module: {
