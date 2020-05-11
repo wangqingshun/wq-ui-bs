@@ -10,6 +10,8 @@
     ]"
   >
     <i v-if="icon !== ''" :class="icon"></i>
+
+    <!--单个插槽，将父组件按钮内容显示在这里-->
     <slot></slot>
   </button>
 </template>

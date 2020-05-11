@@ -1,10 +1,8 @@
-/**
- * @author monkeywang
- * Date: 17/11/18
- */
+
 import Vue from 'vue'
 import LoadingBar from './src/loading-bar.vue'
 
+/*继承*/
 let LoadingBarConstructor = Vue.extend(LoadingBar)
 
 let timer = null, removeTimer = null

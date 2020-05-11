@@ -19,21 +19,17 @@ export default {
         default: 'top'
       }
     },
-  
     computed: {
-      style() {
-        var ret = {};
-  
+      style () {
+        var ret = {}
         if (this.gutter) {
-          ret.marginLeft = `-${this.gutter / 2}px`;
-          ret.marginRight = ret.marginLeft;
+          ret.marginLeft = `-${this.gutter / 2}px`
+          ret.marginRight = ret.marginLeft
         }
-  
-        return ret;
+        return ret
       }
     },
-  
-    render(h) {
+    render (h) {
       return h(this.tag, {
         class: [
           'w-row',
@@ -42,7 +38,6 @@ export default {
           { 'w-row--flex': this.type === 'flex' }
         ],
         style: this.style
-      }, this.$slots.default);
+      }, this.$slots.default)
     }
   };
-  

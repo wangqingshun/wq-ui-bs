@@ -38,6 +38,7 @@
         this.textLen = this.textLen === this.text.length ? this.len : this.text.length
       }
     },
+    /*不会改变text的值*/
     filters: {
       filterText (value, textLen) {
         if (textLen !== -1 && textLen < value.length) {

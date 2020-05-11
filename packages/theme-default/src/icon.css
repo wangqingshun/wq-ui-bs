@@ -6,7 +6,7 @@
   url('./fonts/iconfont.ttf?t=1510363376926') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
   url('./fonts/iconfont.svg?t=1510363376926#iconfont') format('svg'); /* iOS 4.1- */
 }
-
+/*修改前缀*/
 [class^="w-icon-"], [class*=" w-icon-"]  {
   font-family:"iconfont" !important;
   font-size:18px;

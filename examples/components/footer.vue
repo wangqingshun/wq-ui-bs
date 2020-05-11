@@ -31,7 +31,7 @@
     <div class="footer-container">
       <w-row type="flex" justify="space-between">
         <w-col :span="12" class="text-left">
-          <a href="https://monkeywangs.github.io/">
+          <a href="https://github.com/wangqingshun">
             <img src="../assets/img/author.jpg" width="80">
           </a>
           <div>
